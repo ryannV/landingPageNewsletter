@@ -1,0 +1,30 @@
+@media screen and (max-width: 760px){
+    #cabecalho {
+        flex-direction: column;
+    }
+
+    #cabecalho #menu {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #conteudo {
+        flex-direction: column;
+    }
+
+    #conteudo .titulo_conteudo {
+        font-size: 25px;
+    }
+
+    #conteudo #formulario {
+        margin: 0 auto;
+    }
+
+    #conteudo #formulario #botao {
+        width: 100%;
+    }
+
+    #mulher_roxa {
+        display: none;
+    }
+}

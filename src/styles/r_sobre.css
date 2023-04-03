@@ -1,0 +1,47 @@
+@media (max-width: 500px) {
+    #cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cabecalho #menu {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 5px;
+    }
+
+    #conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titulo-second {
+        font-size: 25px;
+    }
+
+    #lista{
+        width: 250px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    #imagem {
+        width: 300px;
+    }
+}
+
+@media (max-width: 700px) {
+  #cabecalho{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #conteudo {
+    display: flex;
+    flex-direction: column;
+  }
+}

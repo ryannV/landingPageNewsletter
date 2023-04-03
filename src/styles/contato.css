@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: "Poppins";
+    background-color: rgb(34, 34, 34);
+    color: white;
+    max-width: 1200px;
+    margin: auto;  /* Deixa o BODY sempre no CENTRO quando diminuirem o tamanho da tela no GOOGLE*/
+    padding: 40px;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho .titulo_cabecalho {
+    line-height: 10px; /* Controla o espaçamento entre dos textos quando um está embaixo do outro */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#cabecalho #menu {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+a{
+    color: white;
+    text-decoration: none; /* Tira o sublinhado do link */
+    list-style: none;  /* Tira a bolinha da UL */
+}
+
+#item-borda {
+    text-decoration: underline rgb(165, 157, 157);
+    
+}
+
+a:hover {  /* Fará efeitos quando o MOUSE for passado por cima dos ITENS */ 
+    color: rgb(132, 14,201);
+    transition: 0.3s all;  /* Determina a velocidade da cor aparecer, efeitozin TOP */
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-top: 2px solid rgb(132, 14,201);
+}
+
+.espaco-entre-header-main {
+    margin-top: 75px;
+}
+
+#titulo-first {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
+    color: rgb(132, 14,201);
+}
+
+#titulo-second {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+#lista-first {
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.lista-second-tree {
+    font-size: 20px;
+}
+
+.roxo {
+    color: rgb(132, 14,201);
+}
+
+.colocar-ao-lado{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#comentario {
+    margin-left: 40px;
+    width: 300px;
+    height: 52px;
+    border-radius: 10px;
+    
+}
+
+#botao{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(132, 14,201);
+    color: white;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: white;
+    color: rgb(132, 14,201);
+}

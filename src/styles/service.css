@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: "Poppins";
+    background-color: rgb(34, 34, 34);
+    color: white;
+    max-width: 1200px;
+    margin: auto;  /* Deixa o BODY sempre no CENTRO quando diminuirem o tamanho da tela no GOOGLE*/
+    padding: 40px;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho .titulo_cabecalho {
+    line-height: 10px; /* Controla o espaçamento entre dos textos quando um está embaixo do outro */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#cabecalho #menu {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+a{
+    color: white;
+    text-decoration: none; /* Tira o sublinhado do link */
+    list-style: none;  /* Tira a bolinha da UL */
+}
+
+#item-borda {
+    text-decoration: underline rgb(165, 157, 157);
+    
+}
+
+a:hover {  /* Fará efeitos quando o MOUSE for passado por cima dos ITENS */ 
+    color: rgb(132, 14,201);
+    transition: 0.3s all;  /* Determina a velocidade da cor aparecer, efeitozin TOP */
+}
+
+#conteudo {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 2px solid rgb(132, 14,201);
+}
+
+.espaco-entre-header-main {
+    margin-top: 75px;
+}
+
+.titulo-primario {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
+    color: rgb(132, 14,201);
+}
+
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.itens {
+    font-size: 20px;
+}
+
+#posicao-botao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+#botao {
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(132, 14,201);
+    color: white;
+    font-family: 'Poppins';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#botao:hover {
+    width: 320px;
+    height: 60px;
+    transition: 0.5s;
+    background-color: white;
+    color: rgb(132, 14,201);
+}
